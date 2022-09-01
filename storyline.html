@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Storyline</title>
+        <link href="style.css" rel="stylesheet">
+        <style>
+            .article{
+                padding:50px;
+                padding-top:30px;
+                display:grid;
+                grid-template-areas:
+                "a b c"
+                "d e f"
+                "g . h";
+            row-gap: 20px;
+            column-gap: 30px;
+            }
+
+            .historia:nth-child(1){
+                grid-area: a;
+            }
+
+            .historia:nth-child(2){
+                grid-area: b;
+            }
+
+            .historia:nth-child(3){
+                grid-area: c;
+            }
+
+            .historia:nth-child(4){
+                grid-area: g;
+                
+            }
+
+            .historia:nth-child(5){
+                grid-area: d;
+                
+            }
+
+            .historia:nth-child(7){
+                grid-area: e;
+                
+            }
+
+            .historia:nth-child(8){
+                grid-area: h;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="barra-lateral">
+                <a href="index.html"><img src="img/arrow.png" width="30px" height="30px">Voltar</a>
+            </div>
+            <div class="article">
+                <div class="historia"><h4>Quando me apaixonei pela primeira vez</h4>
+                    <video width="300" height="200" controls>
+                        <source src="video/cena_romance.mp4" type="video/mp4">
+                      </video>
+                </div>
+
+                <div class="historia"><h4>Quando meu cachorro morreu em 2019</h4>
+                    <video width="300" height="200" controls>
+                        <source src="video/cena_cachorro.mp4" type="video/mp4">
+                      </video>
+                </div>
+
+                <div class="historia"><h4>Meus divertidamente ano passado porque eu não conseguia emprego e me sentia estagnado em relação as outras pessoas</h4>
+                    <video width="300" height="200" controls>
+                        <source src="video/cena_raiva.mp4" type="video/mp4">
+                      </video>
+                </div>
+
+                <div class="historia"><h4>Sempre que discuto com minha mãe</h4>
+                    <video width="300" height="200" controls>
+                        <source src="video/cena_rue.mp4" type="video/mp4">
+                      </video>
+                   </div>
+
+                <div class="historia"><h4>Quando adotei minha gatinha</h4>
+                    <video width="300" height="200" controls>
+                        <source src="video/cena_precious.mp4" type="video/mp4">
+                      </video>
+                </div>
+
+                <div class="historia"><h4>Quando terminei a escola</h4>
+                    <video width="300" height="200" controls>
+                        <source src="video/cena_dance.mp4" type="video/mp4">
+                      </video>
+                </div>
+
+                <div class="historia"><h4>Quando entrei no PROA</h4>
+                    <video width="300" height="200" controls>
+                        <source src="video/cena_proa.mp4" type="video/mp4">
+                      </video>
+                </div>
+
+                <div class="historia"><h4>Quando errei o lugar onde seria o ENEM</h4>
+                    <video width="300" height="200" controls>
+                        <source src="video/cena_crying.mp4" type="video/mp4">
+                      </video>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

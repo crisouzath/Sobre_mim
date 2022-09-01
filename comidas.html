@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title>Comidas</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .article {
+            display: grid;
+            grid-template-areas:
+                "a a a"
+                "b c d"
+                "e e e"
+                "f g h";
+            padding: 50px;
+            row-gap: 20px;
+        }
+
+        h2{
+            margin: 10px;
+        }
+
+        h2:nth-child(1) {
+            margin: 0 auto;
+            grid-area: a;
+        }
+
+        h2:nth-child(2){
+            margin: 0 auto;
+            grid-area:e;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="barra-lateral">
+            <a href="index.html"><img src="img/arrow.png" width="30px" height="30px">Voltar</a>
+        </div>
+        <div class="article">
+            <h2>Receitas que eu gosto</h2>
+            <h2>Receitas que eu gostaria de experimentar</h2>
+
+            <div class="prato">
+                <a href="lasanha_receita.html">
+                    <img src="img/lasanha.jpg" width="300px" height="300px">
+                    <label class="text">Lasanha</label>
+                </a>
+            </div>
+             <div class="prato">
+                <a href="redvelvet_receita.html">
+                    <img src="img/redvelvet.jpg" width="300px" height="300px">
+                    <label class="text">Bolo Red Velvet</label>
+                </a>
+            </div>
+
+            <div class="prato">
+                <a href="polvo_receita.html">
+                    <img src="img/polvo.jpg" width="300px" height="300px">
+                    <label class="text">Polvo ao Vinagrete</label>
+                </a>
+            </div>
+
+            <div class="prato">
+                <a href="tapioca_receita.html">
+                    <img src="img/tapioca.jpg" width="300px" height="300px">
+                    <label class="text">Tapioca da Gilda</label>
+                </a>
+            </div>
+
+            <div class="prato">
+                <a href="empada_receita.html">
+                    <img src="img/empada.jpg" width="300px" height="300px">
+                    <label class="text">Empada de Frango</label>
+                </a>
+            </div>
+
+            <div class="prato">
+                <a href="pure-batata_receita.html">
+                    <img src="img/pure_batata.jpg" width="300px" height="300px">
+                    <label class="text">Purê de Batata</label>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
